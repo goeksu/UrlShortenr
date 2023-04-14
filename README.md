@@ -13,15 +13,11 @@ This is a simple URL shortener application built using Spring Boot and MongoDB. 
 To get started with the URL shortener, follow these steps:
 
 ```bash
-# Clone the repository:
-git clone https://github.com/<username>/<repository>.git
 
-# Open the project in your favorite IDE.
-
-# Configure the MongoDB connection in the application.properties file. The default configuration assumes that MongoDB is running on localhost with the default port (27017).
+git clone https://github.com/goeksu/UrlShortenr.git
 
 # Build and run the application:
 mvn clean install
 java -jar target/url-shortener-0.0.1-SNAPSHOT.jar
 
-# Access the application at http://localhost:8080.
+# Access the application at http://localhost:8080. Make sure that Mongo is running.
